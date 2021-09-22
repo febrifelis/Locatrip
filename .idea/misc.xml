@@ -16,6 +16,7 @@
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/ic_setting.xml" value="0.1935185185185185" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_background_blue.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_line.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_linee_orange.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_linee_white.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_rectangle_blue.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/drawable/shape_rectangle_blue_grey.xml" value="0.1" />
@@ -31,6 +32,8 @@
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_my_wallet.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_my_wallet_success.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_my_wallet_top_up.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_onboarding_one.xml" value="0.1213768115942029" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_pilih_bangku.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/activity_profile.xml" value="0.22" />
@@ -46,6 +49,7 @@
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/row_item_checkout_white.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/row_item_coming_soon.xml" value="0.5" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/row_item_penumpang.xml" value="0.67" />
+        <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/row_item_transaksi.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/layout/row_item_trip_baru.xml" value="0.5" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18888888888888888" />
         <entry key="..\:/AndroidStudioProjects/LocatripApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18888888888888888" />

@@ -6,7 +6,6 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.fbrproject.locatrip.R
 import com.fbrproject.locatripapp.home.dashboard.DashboardFragment
-import com.fbrproject.locatripapp.home.setting.SettingFragment
 import com.fbrproject.locatripapp.home.tiket.TiketFragment
 import kotlinx.android.synthetic.main.activity_home.*
 

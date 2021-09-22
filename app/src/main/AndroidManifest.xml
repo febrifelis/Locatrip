@@ -26,6 +26,15 @@
         <activity
             android:name="com.fbrproject.locatripapp.home.tiket.TiketActivity"
             android:exported="true" />
+         <activity
+            android:name="com.fbrproject.locatripapp.wallet.MyWalletActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.fbrproject.locatripapp.wallet.MyWalletSuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.fbrproject.locatripapp.wallet.MyWalletTopUpActivity"
+            android:exported="true" />
         <activity
             android:name="com.fbrproject.locatripapp.checkout.CheckoutSuccessActivity"
             android:exported="true" />

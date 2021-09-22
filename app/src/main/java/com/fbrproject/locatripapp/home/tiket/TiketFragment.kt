@@ -59,7 +59,7 @@ class TiketFragment : Fragment() {
 
                 }
 
-                tv_total.setText("${dataList.size} Perjalanan")
+                tv_total.setText("${dataList.size} Tiket")
             }
 
             override fun onCancelled(error: DatabaseError) {

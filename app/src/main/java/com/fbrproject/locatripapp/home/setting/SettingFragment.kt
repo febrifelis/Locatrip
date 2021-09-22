@@ -1,10 +1,15 @@
-package com.fbrproject.locatripapp.home.setting
+package com.fbrproject.locatripapp.home
 
+
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+
+
+import com.fbrproject.locatripapp.wallet.MyWalletActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.fbrproject.locatrip.R
@@ -12,9 +17,9 @@ import com.fbrproject.locatrip.utils.Preferences
 import kotlinx.android.synthetic.main.fragment_setting.*
 
 /**
+ *
+ *
  * A simple [Fragment] subclass.
- * Use the [SettingFragment.newInstance] factory method to
- * create an instance of this fragment.
  */
 class SettingFragment : Fragment() {
 
@@ -31,7 +36,7 @@ class SettingFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        preferences = Preferences(context!!)
+        preferences = Preferences(context!!.applicationContext)
 
         tv_nama.text = preferences.getValues("nama")
         tv_email.text = preferences.getValues("email")
@@ -40,5 +45,9 @@ class SettingFragment : Fragment() {
             .load(preferences.getValues("url"))
             .apply(RequestOptions.circleCropTransform())
             .into(iv_profile)
+
+        tv_my_wallet.setOnClickListener {
+            startActivity(Intent(activity, MyWalletActivity::class.java))
+        }
     }
 }
